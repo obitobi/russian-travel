@@ -1,0 +1,9 @@
+.footer__copyright {
+    align-self: flex-start;
+}
+
+@media screen and (min-width: 620px) {
+    .footer__copyright {
+        align-self: flex-end;
+    }
+}

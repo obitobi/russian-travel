@@ -1,0 +1,19 @@
+.place__link {
+    display: inline-block;
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+}
+
+@media screen and (max-width: 720px) {
+    .place__link {
+        display: none;
+    }
+}
+
+.place__link {
+    cursor: pointer;
+}

@@ -1,0 +1,60 @@
+@import url('./__image/place__image.css');
+@import url('./__link/place__link.css');
+@import url('./__paragraph/place__paragraph.css');
+@import url('./__title/place__title.css');
+@import url('./__url-heading/place__url-heading.css');
+@import url('./__website/place__website.css');
+@import url('./__paragraphs/place__paragraphs.css');
+
+.place {
+    width: 100%;
+    min-width: 288px;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 460px 484px;
+    grid-template-rows: repeat(2, min-content);
+    grid-gap: 48px 40px;
+    justify-content: center;
+}
+
+.place:last-child {
+    margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        grid-template-columns: 440px 456px;
+        grid-gap: 48px 32px;
+    }
+}
+
+@media screen and (max-width: 928px) {
+    .place {
+        grid-template-columns: 340px 352px;
+        grid-gap: 48px 28px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        grid-template-columns: 340px 352px;
+        grid-gap: 48px 28px;
+        margin-bottom: 72px;
+    }
+
+    .place:last-child {
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .place {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .place:last-child {
+        margin-bottom: 64px;
+    }
+}

@@ -1,0 +1,27 @@
+.footer__link {
+    margin-right: 18px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 18px;
+    color: white;
+}
+
+.footer__link:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 620px) {
+    .footer__link {
+        margin: 0 0 32px;
+    }
+
+    .footer__link:last-child {
+        margin-bottom: 48px;
+    }
+}
+
+.footer__link:hover {
+    cursor: pointer;
+}
