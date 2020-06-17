@@ -18,3 +18,9 @@
         width: 93.75%;
     }
 }
+
+@media screen and (width: 320px) {
+    .intro {
+        width: 288px;
+    }
+}

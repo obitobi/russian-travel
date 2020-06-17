@@ -3,3 +3,10 @@
     height: 52px;
     background-image: url('../../../sprint-3-images/header-logo.svg');
 }
+
+@media screen and (width: 320px) {
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    }
+}

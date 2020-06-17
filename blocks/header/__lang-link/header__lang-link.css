@@ -3,12 +3,6 @@
     font-size: 1.5rem;
     line-height: 28px;
     margin-right: 18px;
-    text-decoration: underline;
-}
-
-.header__lang-link:nth-of-type(2n) {
-    margin-right: 0;
-    text-decoration: none;
 }
 
 @media screen and (width: 320px) {
