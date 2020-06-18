@@ -10,3 +10,5 @@
  * Grid
  * Flex
  * Media - запросы
+
+Ссылка на Github Pages: https://obitobi.github.io/russian-travel/
