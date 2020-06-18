@@ -1,6 +1,5 @@
 .place__link {
     display: inline-block;
-    text-decoration: none;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -16,5 +15,5 @@
 
 .place__link:hover {
     cursor: pointer;
-    text-decoration: underline;
+    opacity: .6;
 }
