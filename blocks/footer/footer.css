@@ -6,13 +6,21 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    width: 92.5%;
+    width: 100%;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
     color: white;
     margin-bottom: 24px;
+    align-self: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        width: 928px;
+        max-width: 93.75%;
+    }
 }
 
 @media screen and (max-width: 620px) {

@@ -5,9 +5,17 @@
 
 .header {
     margin: 28px 48px 0;
-    width: 92.5%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    align-self: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        width: 928px;
+        max-width: 93.75%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -19,5 +27,6 @@
 @media screen and (width: 320px) {
     .header {
         margin: 16px 16px 0;
+        width: 288px;
     }
 }
